@@ -28,12 +28,12 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/user_image"
-                android:layout_width="110dp"
-                android:layout_height="110dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
                 android:src="@mipmap/ic_person"
                 app:civ_border_color="#3550b4"
-                app:civ_border_width="2dp" />
+                app:civ_border_width="3dp" />
 
         </androidx.cardview.widget.CardView>
 
