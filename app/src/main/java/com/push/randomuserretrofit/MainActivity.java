@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setUserImage(String url) {
-        Picasso.get().load(url).resize(120, 120).into(userImage);
+        Picasso.get().load(url).resize(130, 130).into(userImage);
     }
 
     public void randomUser(View view) {
